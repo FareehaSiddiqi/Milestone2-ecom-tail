@@ -1,4 +1,101 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+/* Reset all elements to remove default padding and margin */
+* {
+    padding: 0;
+    margin: 0;
+}
 
+body {
+    background-color: #665c5c; /* Black background */
+    color: #fff; /* White text color */
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between; /* Space out items in the nav */
+    margin: 20px; /* Margin around the nav container */
+}
+
+.logo h2 {
+    font-size: 35px; /* Large font for the logo */
+    color: cadetblue; /* Cadet blue color for logo text */
+    padding-left: 20px; /* Left padding for spacing */
+}
+
+ul {
+    display: flex;
+    gap: 20px; /* Space between list items */
+    list-style: none; /* Remove bullet points */
+    font-size: 20px; /* Font size for list items */
+}
+
+
+.logo:hover{
+    color: chartreuse;
+}
+ul{
+display: flex;
+gap: 20px;
+list-style: none;
+font-size: 20px;
+color: rgba(238, 238, 20, 0.5);
+padding: top 10px; ;
+}
+
+.link{
+    color: rgb(185, 144, 212);
+    text-decoration: none;
+}
+.link:hover{
+    color: magenta;
+}
+li{
+    color: aliceblue;
+}
+
+.btn {
+    padding: 10px;
+  }
+  
+  .btn:hover {
+    color: chartreuse;
+    background-color: coral;
+  }
+  
+
+ button{
+    padding: 10px;
+    font-size: medium;
+    background-color: rgb(30, 210, 54);
+    color: black;
+ }
+
+
+  .contact {
+    display: flex;
+    margin-left: 20%;
+    margin-top: 101px; /* Make sure the margin-top value has proper units (e.g., px) */
+  }
+  
+  .info {
+    padding: 10px;
+    color:brown;}
+  
+  .info:hover {
+    color: rgb(160, 10, 85);
+    background-color: coral;
+  }
+.footer{
+    margin-top: 200px;
+    color: black;
+    background-color: rgb(191, 191, 236);
+
+}
+.about{
+    margin-top: 200px;
+}
+.contactUs{
+    margin-top: 200px;
+}
+.project{
+    margin-top: 200px;
+}
